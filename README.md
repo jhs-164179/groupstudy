@@ -1,5 +1,7 @@
 <h1>그룹스터디용 리포지토리</h1>
 <h2>How-to-run</h2>
+0. python 가상환경 생성<br>
+0-1. pip install -r requirements.txt<br>
 1. Start Spring server first<br>
 2. Start video_api code in machine which contains camera, etc.<br>
 3. Start Flask_server also<br>

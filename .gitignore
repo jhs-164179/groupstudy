@@ -1,8 +1,13 @@
 !requirements.txt
 
+yolov5/train/images/*.jpg
+yolov5/valid/images/*.jpg
+yolov5/train/labels/*.txt
+yolov5/valid/labels/*.txt
+
 for_yolo
 *.jpg
-*.txt
+# *.txt
 __pycache__
 HELP.md
 .gradle
