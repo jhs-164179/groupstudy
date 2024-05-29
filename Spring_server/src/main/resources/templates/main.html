@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+</head>
+<body>
+    session 값 확인 : <p th:text="${session.loginStudentId}"></p>
+    <!-- 원본 영상 확인 -->
+    <h1>영상 확인</h1>	
+	<img src="http://192.168.0.45:5000/video" alt="Video Stream">
+    <!-- 객체탐지 영상 확인 -->
+    <h1>객체탐지 영상 확인</h1>
+	<img src="http://192.168.0.35:3333/video" alt="Video Stream">
+</body>
+</html>

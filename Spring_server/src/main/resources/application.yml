@@ -1,0 +1,32 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    # plz change the url for each environments
+    url: jdbc:mysql://localhost:3306/db_member?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    # woojoo pc mysql
+    # username: username_wccjcc
+    # password: 1234
+
+    # jhs pc mysql
+    username: root
+    password: 1234
+
+    # doyeon pc mysql
+    # username: doyeon
+    # password: 1224
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+

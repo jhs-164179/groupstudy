@@ -1,3 +1,7 @@
+for_yolo
+*.jpg
+*.txt
+__pycache__
 HELP.md
 .gradle
 build/
