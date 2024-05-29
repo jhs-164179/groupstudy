@@ -16,6 +16,7 @@
 (hs): connecting python-based server(with yolov5 system) & develop algorithm for only authorized user can check webcam view<br>
 ==> testing python server and improve yolov5 custom model<br>
 ==> identifying the python requirements<br>
+==> 현재 객체 탐지 후 이미지 저장은 Flask_server 내 sql로 임시 테이블을 사용 중(필요시 개선)<br>
 
 <h2>yolov5</h2>
 link : https://github.com/ultralytics/yolov5

@@ -119,8 +119,9 @@ def load_video(url):
                 
                 yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
-            
-                time.sleep(0.5)
+
+                # delay 설정
+                # time.sleep(0.2)
     else:
         print('Error occured in video stream')
                 
